@@ -1,0 +1,227 @@
+#Body {
+    background-color: #F5F5F5;
+}
+
+#Body .row {
+    --bs-gutter-x: 0rem;
+}
+
+#Body .left {
+    height: 100%;
+    background-color: #5C6A9B;
+    padding-top: 61px;
+}
+
+.left li img {
+    margin: 8px;
+}
+
+#Body .row .left li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#Body .row .left li {
+    color: #FFFFFF;
+}
+
+#Body .left ul {
+    list-style: none;
+    padding-top: 1rem;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+#Body .topNav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    box-shadow: 0px 1px 5px 0px #0000001A;
+}
+
+
+#Body .topNav .user button{
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 25px;
+    align-items: center;
+}
+#Body .topNav .user h4{
+    padding-top: 5px;
+}
+#Body .topNav .user img {
+    padding: 15px;
+    width: 45px;
+}
+
+#Body .topNav .user h3 {
+    margin-top: 2px;
+}
+
+
+
+#Body .container-fluid {
+    padding-left: 15px;
+    color: #5B5B5B;
+}
+
+#Body .container-fluid .select .col-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Body .container-fluid .select select {
+    width: 240px;
+    border: 1px solid #DDE2FF;
+    border-radius: 4px;
+    color: #9C9C9C;
+    box-shadow: 0px 2px 4px 3px rgba(221, 221, 221, 0.19);
+}
+
+#Body option {
+    color: #9C9C9C;
+
+}
+
+#Body .container-fluid .col-8 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Body .container-fluid .col-8 .buttons {
+    display: flex;
+    gap: 15px;
+}
+
+#Body .container-fluid .col-8 .buttons .buttonBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Body .container-fluid .col-8 button {
+    border: none;
+    background-color: transparent;
+    /* background-color: #5C6A9B; */
+}
+
+#Body .right {
+    height: 100%;
+}
+
+
+
+#Body .row .right .searchPosition input {
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 0 0 25px;
+
+}
+
+#Body .row .searchPosition {
+    display: flex;
+    align-items: center;
+}
+
+#Body .row .searchPosition img {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    width: 16px;
+    margin-left: 6px;
+}
+
+
+
+.tableBox table thead,
+tbody,
+td,
+th {
+    border: 1px solid #f0efe5;
+    background:#FFFFFF;
+}
+
+.tableBox table thead tr {
+    background-color: #F8F9FF !important;
+    
+}
+
+.tableBox table th,
+td {
+    padding: 10px 10px;
+}
+
+.tableBox table {
+    width: 100%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    border-collapse: collapse;
+    margin: 25px auto;
+
+}
+
+
+
+#Body .right .tableBox table tbody tr {
+    height: 25px;
+}
+
+#Body .right .tableBox table tbody .ilksetir {
+    background: #F8F9FF !important ; 
+}
+
+#Body .right .tableBox .left-table {
+    padding-right: 15px;
+
+}
+
+#Body .tableBox .col-2 .right-table li b {
+    color: #001454;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.tableBox .right-table {
+    margin-right: 0 -5px;
+    width: 100%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin: 25px -5px;
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.tableBox .right-table ul {
+    padding: 0;
+    width: 100%;
+
+}
+
+.tableBox .right-table li {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #f5f1f1;
+}
+
+.tableBox .right-table li p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}

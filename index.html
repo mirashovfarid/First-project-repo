@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/style.css">
+    <link rel="stylesheet" href="./resources/modal.css">
+    <title>Alisa Table</title>
+</head>
+
+<body>
+
+    <section id="Body">
+        <div class="row">
+            <div class="col-2">
+                <div class="left">
+                    <ul>
+                        <li>
+                            <div><img src="./resources/images/icon1.svg" alt=""><a href="">Komplektləşdirmə</a></div>
+                        </li>
+                        <li>
+                            <div><img src="./resources/images/icon2.svg" alt=""><a href="">Kataloqlaşdırma</a></div>
+                        </li>
+                        <li>
+                            <div><img src="./resources/images/icon3.svg" alt=""><a href="">Nüsxələr</a></div>
+                        </li>
+                        <li>
+                            <div><img src="./resources/images/icon10.svg" alt=""><a href="">Sənədin tarixçəsi</a></div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div><img src="./resources/images/icon4.svg" alt=""><a href="">Yeni oxucu</a></div>
+                        </li>
+                        <li>
+                            <div><img src="./resources/images/icon5.svg" alt=""><a href="">Oxucular</a></div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div><img src="./resources/images/icon6.svg" alt=""><a href="">Sifariş</a></div>
+                        </li>
+                        <li>
+                            <div><img src="./resources/images/icon7.svg" alt=""><a href="">Veriliş</a></div>
+                        </li>
+                        <li>
+                            <div><img src="./resources/images/icon8.svg" alt=""><a href="">Bron</a></div>
+                        </li>
+                        <li>
+                            <div><img src="./resources/images/icon9.svg" alt=""><a href="">Sifariş tarixçəsi</a></div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div><img src="./resources/images/icon1.svg" alt=""><a href="">Əməkdaşlar</a></div>
+                        </li>
+                        <li>
+                            <div><img src="./resources/images/icon1.svg" alt=""><a href="">Təşkilati struktur</a></div>
+                        </li>
+                        <li>
+                            <div><img src="./resources/images/icon1.svg" alt=""><a href="">Hesabatlar</a></div>
+                        </li>
+                        <li>
+                            <div><img src="./resources/images/icon1.svg" alt=""><a href="">Aktiv İstifadəçilər</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="col-10">
+                <div class="right">
+                    <div class="topNav">
+                        <div>
+                            <img src="./resources/images/alisasymbl.svg" alt="">
+                        </div>
+                        <div class="user">
+                            <button type="button" class="aboutModal" data-bs-toggle="modal"
+                                data-bs-target="#aboutModal">
+                                <img src="./resources/images/user.svg" alt="">
+                                <h4>Cafarova Fidan</h4>
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row mt-3">
+                            <div class="col-4">
+                                <label for="search" class="searchPosition">
+                                    <img src="./resources/images/search.svg" alt="">
+                                    <input type="search" name="" id="search" placeholder="Search" class="searchInput">
+                                </label>
+                            </div>
+                            <div class="col-8">
+                                <div class="buttons">
+                                    <div class="buttonBox">
+                                        <button><img src="./resources/images/yeni.svg" alt=""></button>
+                                        <span>Yeni</span>
+                                    </div>
+                                    <div class="buttonBox">
+                                        <button><img src="./resources/images/redakte.svg" alt=""></button>
+                                        <span>Redaktə</span>
+                                    </div>
+                                    <div class="buttonBox">
+                                        <button><img src="./resources/images/sil.svg" alt=""></button>
+                                        <span>Sil</span>
+                                    </div>
+                                    <div class="buttonBox">
+                                        <button><img src="./resources/images/cap.svg" alt=""></button>
+                                        <span>Çap</span>
+                                    </div>
+                                    <div class="buttonBox">
+                                        <button><img src="./resources/images/axtaris.svg" alt=""></button>
+                                        <span>Axtarış</span>
+                                    </div>
+                                    <div class="buttonBox">
+                                        <button><img src="./resources/images/pdf.svg" alt=""></button>
+                                        <span>Pdf</span>
+                                    </div>
+                                    <div class="buttonBox">
+                                        <button><img src="./resources/images/tarixce.svg" alt=""></button>
+                                        <span>Tarixçə</span>
+                                    </div>
+                                    <div class="buttonBox">
+                                        <button><img src="./resources/images/nusxesiz.svg" alt=""></button>
+                                        <span>Nüsxəsiz</span>
+                                    </div>
+                                    <div class="buttonBox">
+                                        <button><img src="./resources/images/telimat.svg" alt=""></button>
+                                        <span>Təlimat</span>
+                                    </div>
+                                    <div class="buttonBox">
+                                        <button><img src="./resources/images/pdfdaxilet.svg" alt=""></button>
+                                        <span>Pdf daxil et</span>
+                                    </div>
+                                    <div class="buttonBox">
+                                        <button><img src="./resources/images/excel.svg" alt=""></button>
+                                        <span>Excel</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row select mt-3">
+                            <div class="col-4">
+                                <label for="">
+                                    <h5>Nüsxələr</h5>
+                                </label>
+                                <select name="" id="">
+                                    <option value=""> Hamısı</option>
+                                    <option value=""> Dərs 1</option>
+                                    <option value=""> Dərs 2</option>
+                                    <option value=""> Dərs 3</option>
+                                </select>
+                            </div>
+
+                            <div class="col-8">
+                                <select name="" id="">
+                                    <option value=""> Hamısı</option>
+                                    <option value=""> Dərs 1</option>
+                                    <option value=""> Dərs 2</option>
+                                    <option value=""> Dərs 3</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value=""> Mənim müəssisəm üzrə</option>
+                                    <option value=""> Dərs 1</option>
+                                    <option value=""> Dərs 2</option>
+                                    <option value=""> Dərs 3</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value=""> Mənim müəssisəm üzrə</option>
+                                    <option value=""> Dərs 1</option>
+                                    <option value=""> Dərs 2</option>
+                                    <option value=""> Dərs 3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row tableBox mt-4">
+                            <div class="col-10">
+                                <div class="left-table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th> </th>
+                                                <th>No</th>
+                                                <th>Sərlövhə</th>
+                                                <th>Müəllif</th>
+                                                <th>Nəşrin tipi</th>
+                                                <th>Nüsxələr</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="ilksetir">
+                                                <td>+</td>
+                                                <td>1</td>
+                                                <td>Зоология с основами экологии</td>
+                                                <td>Блинников В.И</td>
+                                                <td>Kitab</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>+</td>
+                                                <td>1</td>
+                                                <td>Зоология с основами экологии</td>
+                                                <td>Блинников В.И</td>
+                                                <td>Kitab</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>+</td>
+                                                <td>1</td>
+                                                <td>Зоология с основами экологии</td>
+                                                <td>Блинников В.И</td>
+                                                <td>Kitab</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>+</td>
+                                                <td>1</td>
+                                                <td>Зоология с основами экологии</td>
+                                                <td>Блинников В.И</td>
+                                                <td>Kitab</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>+</td>
+                                                <td>1</td>
+                                                <td>Зоология с основами экологии</td>
+                                                <td>Блинников В.И</td>
+                                                <td>Kitab</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>+</td>
+                                                <td>1</td>
+                                                <td>Зоология с основами экологии</td>
+                                                <td>Блинников В.И</td>
+                                                <td>Kitab</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>+</td>
+                                                <td>1</td>
+                                                <td>Зоология с основами экологии</td>
+                                                <td>Блинников В.И</td>
+                                                <td>Kitab</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>+</td>
+                                                <td>1</td>
+                                                <td>Зоология с основами экологии</td>
+                                                <td>Блинников В.И</td>
+                                                <td>Kitab</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>+</td>
+                                                <td>1</td>
+                                                <td>Зоология с основами экологии</td>
+                                                <td>Блинников В.И</td>
+                                                <td>Kitab</td>
+                                                <td>1</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="right-table">
+                                    <ul>
+                                        <li>
+                                            <b>Nəşr tipi</b>
+                                            <p>Kitab</p>
+
+                                        </li>
+                                        <li>
+                                            <b>Nəşr tipi</b>
+                                            <p>Kitab</p>
+
+                                        </li>
+                                        <li>
+                                            <b>Nəşr tipi</b>
+                                            <p>Kitab</p>
+
+                                        </li>
+                                        <li>
+                                            <b>Nəşr tipi</b>
+                                            <p>Kitab</p>
+
+                                        </li>
+                                        <li>
+                                            <b>Nəşr tipi</b>
+                                            <p>Kitab</p>
+
+                                        </li>
+                                        <li>
+                                            <b>Nəşr tipi</b>
+                                            <p>Kitab</p>
+
+                                        </li>
+                                        <li>
+                                            <b>Nəşr tipi</b>
+                                            <p>Kitab</p>
+
+                                        </li>
+                                        <li>
+                                            <b>Nəşr tipi</b>
+                                            <p>Kitab</p>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Modal Start-->
+
+
+    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="col-4">
+                    <div class="left ">
+                        <div class="leftbox">
+                            <div class="category"><button style="background: #F8F9FF;">Ümumi</button></div>
+                            <div class="category"><button>Əlaqə</button></div>
+                            <div class="category"><button>Ünvan</button></div>
+                            <div class="category"><button>Sənədlər</button></div>
+                            <div class="category"><button>Təhsili haqqında</button></div>
+                            <div class="category"><button>Əmək fəaliyyəti</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="right">
+                        <div class="col-12">
+                            <div class="userAbout">
+                                <div class="image"><img src="./resources/images/Vector.png" alt=""></div>
+                                <div class="data">
+                                    <input type="text" placeholder="Ad" name="name" id="">
+                                    <input type="text" placeholder="Soyad" name="surname" id="">
+                                    <input type="text" placeholder="Ata adı" name="fathername" id="">
+
+                                    <div class="numberInput"> <input type="number" placeholder="Oxucu nömrəsi"
+                                            name="readernumber" id=""><span>1234567</span>
+                                    </div>
+                                    <div class="btns"><input type="button" value="Təyin et" name="" id=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="generalAbout">
+                                <div class="title">
+                                    <span>Ümumi</span>
+                                    <div class="newEditClose">
+                                        <img src="./resources/images/new.svg" alt="">
+                                        <img src="./resources/images/edit.svg" alt="">
+                                        <img src="./resources/images/close.svg" alt="">
+                                    </div>
+                                </div>
+
+
+                                <div class="generalTable">
+                                    <div class="titleColumn">
+                                        <div class="col-4">No</div>
+                                        <div class="col-4">Məlumatın tipi</div>
+                                        <div class="col-4">Məlumat</div>
+                                    </div>
+
+                                </div>
+
+                                <div class="confirm">
+                                    <input type="button" value="Təstiq et" name="" id="">
+                                    <input type="button" value="Yadda saxla" name="" id="">
+                                    <input type="button" class="reject" value="İmtina et" name="" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal End-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./resources/js/app.js"></script>
+
+</body>
+
+</html>
